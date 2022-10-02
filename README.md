@@ -2,7 +2,8 @@
 test api which provides some basic endpoints for testing rest clients locally
 
 ## Endpoints
-- `/get` returns a simple json answer
+- `/get`
+    - response: 200, `{"message":"all good"}`
 
 ## Usage
 run `go run main.go`
